@@ -41,7 +41,7 @@ This project uses Microsoft Graph, not Teams incoming webhooks.
 Project history is tracked in-repo:
 
 - Agent request transcripts and implementation summaries go in `docs/agent-transcripts/` using dated files such as `yyyy-mm-dd.md`.
-- Design and architecture decisions go in `docs/adr/` using numbered ADR files such as `0001-topic.md`.
+- Design and architecture decisions go in `docs/adr/` using numbered ADR files such as `0001-short-title.md`.
 
 ## Make Targets
 

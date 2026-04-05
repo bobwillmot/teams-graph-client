@@ -4,6 +4,7 @@ Store dated agent request and implementation summaries here.
 
 Conventions:
 
+- Use lowercase hyphenated Markdown names by default, while keeping `README.md` uppercase for folder indexes.
 - Use one Markdown file per request day in `yyyy-mm-dd.md` format.
 - Capture the user request, the main implementation steps, and any follow-up notes worth keeping.
 - Keep entries concise so the folder remains easy to scan.

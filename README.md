@@ -33,8 +33,8 @@ This project uses Microsoft Graph, not Teams incoming webhooks.
 - `teams_graph.py`: reusable client class and CLI.
 - `example.py`: simple example usage.
 - `pyproject.toml`: packaging metadata and `teams-graph-post` entry point.
-- `CHAT_TRANSCRIPT.md`: saved project conversation summary.
-- `DESIGN_DECISIONS.md`: saved implementation decisions and tradeoffs.
+- `chat-transcript.md`: saved project conversation summary.
+- `design-decisions.md`: saved implementation decisions and tradeoffs.
 
 ## Make Targets
 

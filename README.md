@@ -27,14 +27,21 @@ This project uses Microsoft Graph, not Teams incoming webhooks.
 - `.env.example`: example Graph environment file.
 - `.env`: local Graph environment file created with placeholder values.
 - `.gitignore`: local environment and build artifact ignore rules.
+- `docs/agent-transcripts/`: dated agent request and implementation summaries.
+- `docs/adr/`: architecture decision records and design tradeoffs.
 - `Makefile`: common setup and run targets.
 - `payload.json`: sample Graph `chatMessage` payload.
 - `tests/test_teams_graph.py`: smoke tests for payload generation and JSON loading.
 - `teams_graph.py`: reusable client class and CLI.
 - `example.py`: simple example usage.
 - `pyproject.toml`: packaging metadata and `teams-graph-post` entry point.
-- `chat-transcript.md`: saved project conversation summary.
-- `design-decisions.md`: saved implementation decisions and tradeoffs.
+
+## Project Tracking
+
+Project history is tracked in-repo:
+
+- Agent request transcripts and implementation summaries go in `docs/agent-transcripts/` using dated files such as `yyyy-mm-dd.md`.
+- Design and architecture decisions go in `docs/adr/` using numbered ADR files such as `0001-topic.md`.
 
 ## Make Targets
 

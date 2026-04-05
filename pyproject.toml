@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "teams-graph-client"
+version = "0.1.0"
+description = "Small Python client and CLI for posting messages to Microsoft Teams channels through Microsoft Graph."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+requests = ["requests>=2.31"]
+
+[project.scripts]
+teams-graph-post = "teams_graph:main"
+
+[tool.setuptools]
+py-modules = ["teams_graph"]

@@ -1,0 +1,13 @@
+# Chat Transcript
+
+Date: 2026-04-05
+
+This file stores a concise transcript of the work requested for this folder.
+
+## Conversation Summary
+
+User: Asked to create a new project under `~/src/` for the Microsoft Graph option similar to the webhook-based Teams client.
+
+Assistant: Created `~/src/teams-graph-client` with a reusable Python client, CLI, Makefile, example script, tests, sample payload, environment files, README, and design notes.
+
+Assistant: Chose delegated authentication with device code sign-in or a supplied bearer token because ordinary Graph channel posting requires delegated permission and does not support normal app-only client credentials.

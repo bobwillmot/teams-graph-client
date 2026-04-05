@@ -1,0 +1,7 @@
+{
+  "body": {
+    "contentType": "html",
+    "content": "<div><strong>Hello from payload.json</strong></div><div>This message was sent through Microsoft Graph.</div>"
+  },
+  "importance": "normal"
+}
